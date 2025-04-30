@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Julbert Michel Abdoulaye Sambou | Réseaux & Développement</title>
+  <meta name="description" content="Portfolio de Julbert Michel Abdoulaye Sambou, étudiant en sécurité des réseaux, passionné par l’IoT, les systèmes distribués et le développement web/mobile." />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f7f8;
+      color: #333;
+    }
+
+    header {
+      background: #0077cc;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    h2 {
+      border-bottom: 2px solid #0077cc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      color: #0077cc;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .project-card {
+      background: white;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+      color: #004a99;
+    }
+
+    .project-card p {
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+
+    ul.skills {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    ul.skills li {
+      background: #0077cc;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+
+    form {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    form label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.3rem;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+      resize: vertical;
+    }
+
+    form button {
+      margin-top: 1rem;
+      background: #0077cc;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.5rem;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    form button:hover {
+      background: #005fa3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Julbert Michel Abdoulaye Sambou</h1>
+    <p>Réseaux | Sécurité | Développement Web & Mobile | IoT & Systèmes Distribués</p>
+  </header>
+
+  <section id="about">
+    <h2>À propos de moi</h2>
+    <p>
+      Étudiant en Master 2 Sécurité des Réseaux et Systèmes Distribués à l’Université Gaston Berger, je suis passionné par les technologies réseau, l’Internet des Objets (IoT), les environnements critiques et le développement web/mobile. J’aime combiner théorie et pratique à travers des simulations, du prototypage et du codage orienté solution.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projets récents</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Pom2Tech (Hackathon Challenge ODC)</h3>
+        <p>Prototype d’application mobile pour la conservation post-récolte de pommes de terre, avec recommandations intégrées.</p>
+      </div>
+      <div class="project-card">
+        <h3>Simulation IoT Souterrain (NS-3 + MATLAB)</h3>
+        <p>Simulation de capteurs souterrains communiquant vers la surface via LoRa, avec génération de logs et analyse sous MATLAB.</p>
+      </div>
+      <div class="project-card">
+        <h3>Site de Services IT</h3>
+        <p>Développement d’un site vitrine simple pour la promotion de services de maintenance, installation et configuration informatique.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Compétences</h2>
+    <ul class="skills">
+      <li>Réseaux TCP/IP & IPv6</li>
+      <li>Sécurité Informatique</li>
+      <li>NS-3 & MATLAB</li>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Développement mobile (Flutter en apprentissage)</li>
+      <li>Git & GitHub</li>
+      <li>Linux & Scripting</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contactez-moi</h2>
+    <form action="mailto:julbert.michel@example.com" method="POST" enctype="text/plain">
+      <label for="name">Nom</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Julbert Michel Abdoulaye Sambou - Tous droits réservés
+  </footer>
+</body>
+
+</html>
